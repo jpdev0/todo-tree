@@ -1,0 +1,47 @@
+{
+    "todo-tree.tree.autoRefresh": true,
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "text-and-comment"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "black",
+            "background": "green",
+            "iconColour": "green",
+            "icon": "check",
+            "type": "text"
+        },
+        "FIXME": {
+            "foreground": "black",
+            "background": "red",
+            "iconColour": "red",
+            "icon": "bug"
+        },
+        "REVIEW": {
+            "foreground": "black",
+            "background": "cyan",
+            "iconColour": "lightblue",
+            "icon": "eye"
+        },
+        "HACK": {
+            "foreground": "black",
+            "background": "#FFA500",
+            "iconColour": "orange",
+            "icon": "alert"
+        },
+        "REF": {
+            "foreground": "black",
+            "background": "grey",
+            "iconColour": "grey",
+            "icon": "link",
+            "type": "tag"
+        }
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "REVIEW",
+        "HACK",
+        "REF"
+    ]
+}
